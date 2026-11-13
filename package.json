@@ -1,7 +1,24 @@
 {
   "name": "lungjam-tv-player",
   "version": "1.0.0",
-  "description": "โปรแกรมดูทีวีออนไลน์ & ฝึกภาษา โดย ลุงแจ่ม อารมณ์ดี",
+  "description": "แอปดูทีวีออนไลน์ - ฝึกภาษา & ทั่วโลก โดย ลุงแจ่ม อารมณ์ดี",
   "main": "main.js",
   "scripts": {
-    "start": "electron
+    "start": "electron .",
+    "build": "electron-builder --win portable"
+  },
+  "build": {
+    "appId": "com.lungjam.tvplayer",
+    "productName": "LungJam-TV-Player",
+    "win": {
+      "target": "portable",
+      "icon": "icon.ico"
+    }
+  },
+  "author": "ลุงแจ่ม อารมณ์ดี",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.13.3"
+  }
+}
