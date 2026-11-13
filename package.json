@@ -1,14 +1,7 @@
 {
   "name": "lungjam-tv-player",
   "version": "1.0.0",
-  "description": "เว็บแอปดูทีวีออนไลน์ - ฝึกภาษา & ทั่วโลก โดย ลุงแจ่ม อารมณ์ดี",
+  "description": "โปรแกรมดูทีวีออนไลน์ & ฝึกภาษา โดย ลุงแจ่ม อารมณ์ดี",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
-  },
-  "author": "ลุงแจ่ม อารมณ์ดี",
-  "license": "MIT",
-  "devDependencies": {
-    "electron": "^28.0.0"
-  }
-}
+    "start": "electron
